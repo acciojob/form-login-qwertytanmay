@@ -8,4 +8,6 @@ function getFormvalue() {
 	let lastname = myForm.elements.lname.value;
 	//alert
 	alert(firstname+" "+lastname);
+
+	form.addEventListener("submit",getFormvalue);
 }
